@@ -2,7 +2,7 @@ pipeline {
 	agent any
 	stages {
 		stage('Pull Images') {
-				step {
+				steps {
 					sh "./scripts/pull_images.sh"
 				     }
 		}
